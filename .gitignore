@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.ckpt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Vector databases and models
+vector_db/
+gbm_vector_db/
+models/
+*.bin
+*.safetensors
+
+# Data files
+*.json
+*.jsonl
+*.csv
+*.txt
+!requirements.txt
+!README.md
+!LICENSE
+*.pdf
+*.doc
+*.docx
+
+# Feedback and logs
+feedback.db
+*.log
+*.db
+*.sqlite
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Large model files (use Git LFS if needed)
+*.pt
+*.model
+*.vocab
+*.tokenizer
+
+# ChromaDB
+chroma.db
+chroma_db/
+*.chroma
+
+# Hugging Face cache
+.cache/
+transformers_cache/
+
+# Test files
+test_*.py
+*_test.py
+test_data/

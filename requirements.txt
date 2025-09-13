@@ -1,0 +1,12 @@
+# Essential web server only
+flask==2.3.3
+flask-cors==4.0.0
+requests==2.31.0
+
+# Basic AI components (compatible with Python 3.12)
+numpy==1.26.4
+scikit-learn==1.3.2
+
+# Lightweight alternatives
+sentence-transformers==2.2.2
+chromadb==0.4.22

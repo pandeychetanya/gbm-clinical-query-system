@@ -1,0 +1,31 @@
+title: "GBM Clinical Query System"
+description: "Advanced Clinical Decision Support for Glioblastoma Multiforme Treatment - TMZ & Avastin Query System"
+theme: minima
+
+# GitHub Pages settings
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+
+# SEO settings
+author: "Chetanya Pandey"
+twitter:
+  username: gbm_clinical
+  card: summary_large_image
+
+# Navigation
+header_pages:
+  - index.html
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
