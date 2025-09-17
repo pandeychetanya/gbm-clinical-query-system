@@ -11,7 +11,7 @@
     <!-- 3Dmol.js for molecular visualization -->
     <script src="https://3dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
     
-    <!-- EB Garamond Font -->
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -662,7 +662,7 @@
 
         async function checkServerStatus() {
             try {
-                console.log('🔄 Checking local API server...');
+                console.log('Checking local API server...');
                 const response = await fetch(`${API_BASE_URL}/health`, {
                     method: 'GET',
                     timeout: 5000
