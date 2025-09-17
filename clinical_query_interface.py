@@ -72,11 +72,11 @@ class ClinicalQueryInterface:
             print("❌ Failed to load cross-encoder, using metadata re-ranking only")
         
         print(f"✅ Connected to GBM Clinical Database")
-        print(f"📊 Total documents: {self.collection.count()}")
+        print(f"Total documents: {self.collection.count()}")
         if self.embedding_model:
             print(f"🧠 Query embedding dimension: {self.embedding_model.get_sentence_embedding_dimension()}")
         if self.cross_encoder:
-            print(f"🔄 Cross-encoder re-ranking enabled for refined semantic matching")
+            print(f"Cross-encoder re-ranking enabled for refined semantic matching")
     
     def query_clinical_data(self, query: str, n_results: int = 5, metadata_filters: Dict[str, Any] = None, 
                           drug_filter: str = None, section_filter: str = None) -> Dict[str, Any]:
