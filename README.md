@@ -1,6 +1,6 @@
 # 🧠 GBM Clinical Query System
 
-I wrote this so clinicians in neuro-oncology systems don't have to sift through 80 page pdf's to find the correct dosign schedule for TMZ and Avastin. if you're a clinician in a GBM Multiforme setting, this is the top of your hat.
+I wrote this so clinicians in neuro-oncology systems don't have to sift through 80 page pdf's to find the correct dosing schedule for TMZ and Avastin. if you're a clinician in a GBM Multiforme setting, this is the top of your hat.
 
 Built from the ground-up.
 
